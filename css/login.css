@@ -1,0 +1,113 @@
+body{
+    position: absolute;
+}
+.login {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-16%, 1%);
+}
+.mean-login{
+    background-color: #f8f9fa;
+    height: 100%;
+    width: 35%;
+    text-align: center;
+}
+.face-goo-mean {
+    display: flex;
+    justify-content: center;
+}
+.facebook {
+    border: 2px solid #3b5998;
+    display: flex;
+    width: 34%;
+}
+.facebook p{
+    color: #3b5998;
+}
+.google{
+    border: 2px solid #df4a32;
+    display: flex;
+    width: 34%;
+}
+.google p{
+    color: #df4a32;
+}
+hr{
+    color: #a9a9a9;
+    width: 80px;
+}
+.d-flex {
+    color: #a9a9a9;
+    justify-content: center;
+}
+.input-mean input{
+    border: 0;
+    outline: none;
+    border-bottom: 1.5px solid #a9a9a9;
+    background-color: transparent
+}
+.input-mean input:focus{
+    border-bottom: 1.5px solid #d5a249;
+}
+.btnf{
+    background-color: #d5a249;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+.btnf:hover{
+    color: white;
+}
+.btnf a:hover{
+    border-top: 1px solid white;
+}
+.btnf a{
+    color: white;
+}
+.d-flex p{
+    color: #a9a9a9;
+}
+.login-notes{
+    text-decoration: none;
+    color: #176d93;
+    border: 0;
+}
+.login-notes:hover{
+    color: #176d93;
+}
+
+/* form2 */
+.form2{
+    background-color: #f8f9fa;
+    height: 100%;
+    width: 35%;
+    float: left;
+}
+.back{
+    float: left;
+    color: #2c4152;
+}
+.back:hover{
+    color: #2c4152;
+}
+.inputgroup input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: transparent;
+}
+.inputgroup input:focus{
+    border-bottom: 1.5px solid #d5a249;
+    outline: none;
+}
+.btn2{
+    background-color: #d5a249;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    
+}
+.menabtn2{
+    text-align: center;
+}
